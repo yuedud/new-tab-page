@@ -1,0 +1,31 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "A multi-track video editor",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0",
+    "vite-plugin-solid": "^2.11.6",
+    "@types/node": "^20.11.24",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.5",
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
+    "konva": "^9.3.3",
+    "solid-konva": "^0.1.0",
+    "@iconify-json/fa-solid": "^1.0.6",
+    "solid-transition-group": "^0.0.10"
+  }
+}
